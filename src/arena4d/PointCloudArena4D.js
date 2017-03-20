@@ -73,10 +73,6 @@ Potree.PointCloudArena4DNode = function(){
 	};
 };
 
-Potree.PointCloudOctreeNode.prototype = Object.create(Potree.PointCloudTreeNode.prototype);
-
-
-
 Potree.PointCloudArena4D = function(geometry){
 	THREE.Object3D.call( this );
 	
